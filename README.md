@@ -18,7 +18,7 @@
         <img image-loader image-src="{{src}}" loader="{{loader}}" defualt-image="{{default}}">    
 
 # timeInterval
-   avery helpfull directive to use on timing in thing like chat message,comments , etc
+   avery helpfull directive to use on timing things like chat message,comments , etc
 
    we all have the proplem with showing people the time of the messages because of the diffrence between the server time and client local time so why not the server send us the diffrence between message time and current date in seconds as the two times are in server 
    we will got exact time 
@@ -57,6 +57,11 @@
                 };
 
     in html : <div time-interval="dateDiff" lang="currentlanguage"  custom-text="customtText"></div>
+    
+    in custom text the words inside curly braces will be replaced by the nomber of (minitus,seconds,days,months,years)
+    
+    in the dirctive the seconds counter is commented so that the time will be "just now" for the first 60 seconds
+    you can uncomment it if you want
 
     
 
