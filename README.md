@@ -1,5 +1,5 @@
 # Cordova-Angular-Directives
-# Some helpfull directives that can be used with cordova angularjs projects
+# Some helpful directives that can be used with cordova angularjs projects
 #its easy to use as below:
     1- you need to include module.js in your index.html page after including angularjs liberary
 
@@ -18,7 +18,7 @@
         <img image-loader image-src="{{src}}" loader="{{loader}}" defualt-image="{{default}}">    
 
 # timeInterval
-   avery helpfull directive to use on timing things like chat message,comments , etc
+   avery helpful directive to use on timing things like chat message,comments , etc
 
    we all have the proplem with showing people the time of the messages because of the diffrence between the server time and client local time so why not the server send us the diffrence between message time and current date in seconds as the two times are in server 
    we will got exact time 
